@@ -9,6 +9,10 @@
     display: flex;
 }
 
+.bold-little{
+    font-size: 0.8em;
+    font-weight: bold;
+}
 
 /* header nav */
 header{
@@ -16,8 +20,6 @@ header{
     height: 50px;
     background-color: black;
     color: #fff;
-    font-size: 0.8em;
-    font-weight: bold;
     position: fixed;
     top: 0;
     z-index: 999;
@@ -34,4 +36,28 @@ header{
     padding: 5px;
     margin-top: 2px;
     margin-right: 2px;
+}
+
+/* main */
+main{
+    background-color: #000;
+    margin:50px 0px;
+    color: #fff;
+    width: 100vw;
+    height: calc(100% - 100px);
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+}
+
+.usr{
+    width: 200px;
+    height: 150px;
+    background-image: url(https://picsum.photos/300/200);
+    align-items: flex-end;
+}
+
+.usr-info{
+    background-color: #a0a0a0;
+    padding: 5px;
 }
