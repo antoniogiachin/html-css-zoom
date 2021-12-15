@@ -80,8 +80,10 @@ footer{
     height: 80px;
     background-color: #222;
     color: #fff;
-    display: flex;
     align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
 }
 
 footer .ft-nav{
@@ -95,4 +97,24 @@ footer .fas{
 
 footer .fas.fa-share-square{
     color: darkgreen;
+}
+
+footer .nav-left{
+    width: 20%;
+}
+
+footer .nav-center{
+    width: 60%;
+    gap: 20px;
+}
+
+footer .btn-leave{
+    background-color: #484848;
+    width: 10%;
+    height: 100%;
+}
+
+footer .btn-leave a{
+    text-decoration: none;
+    color: red;
 }
