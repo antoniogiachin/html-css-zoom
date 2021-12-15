@@ -90,5 +90,9 @@ footer .ft-nav{
 }
 
 footer .fas{
-    font-size: 40px;
+    font-size: 30px;
+}
+
+footer .fas.fa-share-square{
+    color: darkgreen;
 }
